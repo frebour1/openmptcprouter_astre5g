@@ -819,7 +819,7 @@ fi
 
 echo "Building $OMR_DIST for the target $OMR_TARGET with kernel ${OMR_KERNEL}"
 make defconfig
-echo "execute make (or make package/compile  make compile ,...)
+echo "execute make (or make package/compile  make compile ,...)"
 exit
 make IGNORE_ERRORS=m "$@"
 echo "Done"
