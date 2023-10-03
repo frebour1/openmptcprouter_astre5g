@@ -1,6 +1,6 @@
 CONFIG_TARGET_rockchip=y
 CONFIG_TARGET_rockchip_armv8=y
-CONFIG_TARGET_rockchip_armv8_DEVICE_selha_astre5g=y
+CONFIG_TARGET_rockchip_armv8_DEVICE_radxa_rock-pi-4=y
 CONFIG_PACKAGE_kmod-6lowpan=y
 CONFIG_KERNEL_ARM64_MODULE_PLTS=y
 CONFIG_KERNEL_TCP_CONG_BBR2=y
