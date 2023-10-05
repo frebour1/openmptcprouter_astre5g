@@ -1,0 +1,25 @@
+From 689eec26c9232e7144376840de691b5ff23c4aed Mon Sep 17 00:00:00 2001
+From: Jean-Francois FREBOURG <jean-francois.frebourg@selhagroup.com>
+Date: Thu, 5 Oct 2023 11:41:07 +0200
+Subject: [PATCH 2/2] add rock4se
+
+---
+ arch/arm64/boot/dts/rockchip/Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchip/Makefile
+index 7c71d6fed..81f993b6f 100644
+--- a/arch/arm64/boot/dts/rockchip/Makefile
++++ b/arch/arm64/boot/dts/rockchip/Makefile
+@@ -35,6 +35,8 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-orangepi.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-puma-haikou.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-roc-pc.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-rock-pi-4.dtb
++dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-rock-4c-plus.dtb
++dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-rock-4se.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-rock960.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-rockpro64.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399-sapphire.dtb
+-- 
+2.39.2.windows.1
+
